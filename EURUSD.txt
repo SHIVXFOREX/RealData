@@ -1,0 +1,74 @@
+T&D :- 07/02/2023 16:37:17 | EURUSD |  | LOSS | put | Neutral | 9.6 | Counter :- 2 | 1227.54
+T&D :- 07/02/2023 16:38:12 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 3 | 1244.5
+T&D :- 07/02/2023 16:39:14 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 4 | 1245.57
+T&D :- 07/02/2023 16:40:14 | EURUSD |  | LOSS | put | Neutral | 9.6 | Counter :- 5 | 1235.97
+T&D :- 07/02/2023 16:41:13 | EURUSD |  | WIN | put | Strong Sell | 1.2 | Counter :- 6 | 1252.93
+T&D :- 07/02/2023 16:42:15 | EURUSD |  | LOSS | put | Strong Sell | 9.6 | Counter :- 7 | 1243.33
+T&D :- 07/02/2023 16:43:16 | EURUSD |  | WIN | put | Strong Sell | 1.2 | Counter :- 8 | 1260.28
+T&D :- 07/02/2023 16:44:13 | EURUSD |  | LOSS | put | Strong Sell | 9.6 | Counter :- 9 | 1250.68
+T&D :- 07/02/2023 16:45:14 | EURUSD |  | LOSS | put | Strong Sell | 32.4 | Counter :- 10 | 1218.28
+T&D :- 07/02/2023 16:46:19 | EURUSD |  | WIN | put | Strong Sell | 1.2 | Counter :- 11 | 1278.38
+T&D :- 07/02/2023 16:47:13 | EURUSD |  | LOSS | put | Strong Sell | 9.6 | Counter :- 12 | 1268.78
+T&D :- 07/02/2023 16:48:17 | EURUSD |  | WIN | put | Strong Sell | 1.2 | Counter :- 13 | 1285.74
+T&D :- 07/02/2023 16:57:15 | EURUSD |  | WIN | put | Strong Sell | 1.2 | Counter :- 2 | 1287.69
+T&D :- 07/02/2023 16:58:23 | EURUSD |  | LOSS | put | Strong Sell | 1.2 | Counter :- 3 | 1286.49
+T&D :- 07/02/2023 16:59:12 | EURUSD |  | LOSS | put | Strong Sell | 2.4 | Counter :- 4 | 1284.09
+T&D :- 07/02/2023 17:00:21 | EURUSD |  | LOSS | put | Strong Sell | 4.8 | Counter :- 5 | 1279.29
+T&D :- 07/02/2023 17:01:12 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 6 | 1287.17
+T&D :- 07/02/2023 17:02:23 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 7 | 1288.24
+T&D :- 07/02/2023 17:03:18 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 8 | 1287.04
+T&D :- 07/02/2023 17:04:17 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 9 | 1288.1
+T&D :- 07/02/2023 17:05:16 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 10 | 1286.9
+T&D :- 07/02/2023 17:06:15 | EURUSD |  | WIN | put | Sell | 1.2 | Counter :- 11 | 1287.97
+T&D :- 07/02/2023 17:07:12 | EURUSD |  | LOSS | put | Strong Sell | 1.2 | Counter :- 12 | 1286.77
+T&D :- 07/02/2023 17:08:36 | EURUSD |  | WIN | put | Strong Sell | 1.2 | Counter :- 13 | 1287.84
+T&D :- 07/02/2023 17:09:13 | EURUSD |  | WIN | put | Strong Sell | 1.2 | Counter :- 14 | 1288.9
+T&D :- 07/02/2023 17:10:15 | EURUSD |  | LOSS | put | Strong Sell | 1.2 | Counter :- 15 | 1287.7
+T&D :- 07/02/2023 17:11:19 | EURUSD |  | LOSS | put | Strong Sell | 2.4 | Counter :- 16 | 1285.3
+T&D :- 07/02/2023 17:12:17 | EURUSD |  | LOSS | put | Neutral | 4.8 | Counter :- 17 | 1280.5
+T&D :- 07/02/2023 17:13:15 | EURUSD |  | LOSS | put | Neutral | 9.6 | Counter :- 18 | 1270.9
+T&D :- 07/02/2023 17:14:12 | EURUSD |  | LOSS | put | Buy | 19.2 | Counter :- 19 | 1251.7
+T&D :- 07/02/2023 17:15:14 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 20 | 1286.83
+T&D :- 07/02/2023 17:16:13 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 21 | 1287.89
+T&D :- 07/02/2023 17:17:17 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 22 | 1288.96
+T&D :- 07/02/2023 17:18:16 | EURUSD |  | LOSS | put | Buy | 1.2 | Counter :- 23 | 1287.76
+T&D :- 07/02/2023 17:19:16 | EURUSD |  | LOSS | put | Buy | 2.4 | Counter :- 24 | 1285.36
+T&D :- 07/02/2023 17:20:17 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 25 | 1288.7
+T&D :- 07/02/2023 17:21:13 | EURUSD |  | LOSS | put | Buy | 1.2 | Counter :- 26 | 1287.5
+T&D :- 07/02/2023 17:22:15 | EURUSD |  | LOSS | put | Buy | 2.4 | Counter :- 27 | 1285.1
+T&D :- 07/02/2023 17:23:23 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 28 | 1288.43
+T&D :- 07/02/2023 17:24:16 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 29 | 1289.5
+T&D :- 07/02/2023 17:25:17 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 30 | 1288.3
+T&D :- 07/02/2023 17:26:12 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 31 | 1289.36
+T&D :- 07/02/2023 17:27:16 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 32 | 1290.43
+T&D :- 07/02/2023 17:28:11 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 33 | 1291.5
+T&D :- 07/02/2023 17:29:16 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 34 | 1290.3
+T&D :- 07/02/2023 17:30:18 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 35 | 1291.37
+T&D :- 07/02/2023 17:31:14 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 36 | 1290.17
+T&D :- 07/02/2023 17:32:15 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 37 | 1291.23
+T&D :- 07/02/2023 17:33:15 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 38 | 1292.3
+T&D :- 07/02/2023 17:34:16 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 39 | 1291.1
+T&D :- 07/02/2023 17:35:13 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 40 | 1292.17
+T&D :- 07/02/2023 17:36:16 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 41 | 1290.97
+T&D :- 07/02/2023 17:37:13 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 42 | 1292.03
+T&D :- 07/02/2023 17:38:13 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 43 | 1290.83
+T&D :- 07/02/2023 17:39:16 | EURUSD |  | LOSS | put | Neutral | 2.4 | Counter :- 44 | 1288.43
+T&D :- 07/02/2023 17:40:18 | EURUSD |  | LOSS | put | Neutral | 4.8 | Counter :- 45 | 1283.63
+T&D :- 07/02/2023 17:41:36 | EURUSD |  | LOSS | put | Buy | 9.6 | Counter :- 46 | 1274.03
+T&D :- 07/02/2023 17:42:17 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 47 | 1291
+T&D :- 07/02/2023 17:43:36 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 48 | 1289.8
+T&D :- 07/02/2023 17:44:16 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 49 | 1290.86
+T&D :- 07/02/2023 17:45:19 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 50 | 1291.93
+T&D :- 07/02/2023 17:46:16 | EURUSD |  | LOSS | put | Neutral | 1.2 | Counter :- 51 | 1290.73
+T&D :- 07/02/2023 17:47:15 | EURUSD |  | WIN | put | Neutral | 1.2 | Counter :- 52 | 1291.8
+T&D :- 07/02/2023 17:48:12 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 53 | 1292.86
+T&D :- 07/02/2023 17:49:16 | EURUSD |  | WIN | put | Buy | 1.2 | Counter :- 54 | 1293.93
+T&D :- 07/02/2023 17:50:16 | EURUSD |  | WIN | put | Sell | 1.2 | Counter :- 55 | 1295
+T&D :- 07/02/2023 17:51:13 | EURUSD |  | LOSS | put | Sell | 1.2 | Counter :- 56 | 1293.8
+T&D :- 07/02/2023 17:52:16 | EURUSD |  | LOSS | put | Strong Sell | 2.4 | Counter :- 57 | 1291.4
+T&D :- 07/02/2023 17:53:16 | EURUSD |  | LOSS | put | Strong Sell | 4.8 | Counter :- 58 | 1286.6
+T&D :- 07/02/2023 17:54:14 | EURUSD |  | LOSS | put | Neutral | 9.6 | Counter :- 59 | 1277
+T&D :- 07/02/2023 17:55:16 | EURUSD |  | LOSS | put | Strong Sell | 19.2 | Counter :- 60 | 1257.8
+T&D :- 07/02/2023 17:56:15 | EURUSD |  | LOSS | put | Strong Sell | 38.4 | Counter :- 61 | 1219.4
+T&D :- 07/02/2023 17:57:13 | EURUSD |  | LOSS | call | Strong Buy | 76.8 | Counter :- 62 | 1142.6
+T&D :- 07/02/2023 17:58:15 | EURUSD |  | LOSS | call | Strong Buy | 153.6 | Counter :- 63 | 989
