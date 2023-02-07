@@ -45,8 +45,10 @@ while True:
                     expirations_mode = 1
                     winCounter = 0
                     lossCounter = 0
-                    Martingle_Arr = [2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
-                    row1 = 0
+                    Reg_Arr = [2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+                    Martingle_Arr = [5,12,28,64,147,367]
+                    Reg_row = 0
+                    Mar_row = 0
                     currentEarning = 0
 
                     # check result
@@ -82,16 +84,22 @@ while True:
                             lossCounter = lossCounter + 1
                             if action == "put" :
                                  action = "call"
-                            else :
+                            else : 
                                  action = "put"
                             
 
                         # AM
                         if check_result(id) > 0:
-                            row1 = row1 + 1
+                            Mar_row = 0
+                            Reg_row = Reg_row + 1
+                            amount = Reg_Arr[Reg_row]
                         else:
-                            row1 = 0
-                        amount = Martingle_Arr[row1] * 1.2
+                            Reg_row = 0
+                            Mar_row = Mar_row + 1
+                            amount = Martingle_Arr[Mar_row]
+
+
+                        
                         print("Amount Counter 1 :" + str(amount))    
 
                         #Place Trade
