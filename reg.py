@@ -46,7 +46,7 @@ while True:
                     
                     duration =  1 # minute 1 or 5
                     default_Amt = 1
-                    amount = 2
+                    amount = 20
                     action = "put"  # put
                     polling_time = 3
                     counter = 1
@@ -54,7 +54,7 @@ while True:
                     winCounter = 0
                     lossCounter = 0
                     Reg_Arr = [20,10,20,30,40,50,60,70,80,90,100,11,12,13,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [10,10,50,120,120,280,640,1470]
+                    Martingle_Arr = [1,5,12,30,80,200,500,1250]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
@@ -111,7 +111,7 @@ while True:
                         
                         currentEarning = current_Bal - Initial_Balance
 
-                        if currentEarning > 100 :
+                        if currentEarning > 1000 :
                              print("exiting")
                              exit()
 
