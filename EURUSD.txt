@@ -206,3 +206,9 @@ T&D :- 08/02/2023 15:14:03 | EURUSD |  | WIN | put | 10 | Counter :- 14 | 10696.
 T&D :- 08/02/2023 15:15:03 | EURUSD |  | LOSS | put | 10 | Counter :- 15 | 10686.89
 T&D :- 08/02/2023 15:16:02 | EURUSD |  | LOSS | put | 50 | Counter :- 16 | 10636.89
 T&D :- 08/02/2023 15:17:02 | EURUSD |  | LOSS | put | 120 | Counter :- 17 | 10516.89
+T&D :- 08/02/2023 15:45:03 | EURUSD |  | LOSS | put | 10 | Counter :- 2 | 10736.54
+T&D :- 08/02/2023 15:46:03 | EURUSD |  | WIN | put | 10 | Counter :- 3 | 10745.46
+T&D :- 08/02/2023 15:47:02 | EURUSD |  | WIN | put | 20 | Counter :- 4 | 10744.39
+T&D :- 08/02/2023 15:48:03 | EURUSD |  | WIN | put | 30 | Counter :- 5 | 10752.23
+T&D :- 08/02/2023 15:49:03 | EURUSD |  | WIN | put | 40 | Counter :- 6 | 10768.99
+T&D :- 08/02/2023 15:50:03 | EURUSD |  | WIN | put | 50 | Counter :- 7 | 10794.67

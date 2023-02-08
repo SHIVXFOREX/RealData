@@ -7,8 +7,16 @@ import time
 from iqoptionapi.stable_api import IQ_Option
 import easygui
 import time
+import mysql.connector
 
+mydb = mysql.connector.connect(
+  host="sql178.main-hosting.eu",
+  user="u733493607_pythondb",
+  password="python@3NGINE",
+  database="u733493607_pythondb"
+)
 
+mycursor = mydb.cursor()
 
 now = datetime.now()
 seconds = now.strftime("%H:%M")
@@ -38,7 +46,7 @@ while True:
                     
                     duration =  1 # minute 1 or 5
                     default_Amt = 1
-                    amount = 20
+                    amount = 2
                     action = "put"  # put
                     polling_time = 3
                     counter = 1
@@ -117,7 +125,12 @@ while True:
                         counter = counter + 1
 
                         #SQL UPDAT
-                                
+                        mydb.connect()
+                        sql = (f"UPDATE active SET winAmt = '{currentEarning}' WHERE currency = '{ACTIVES}'" )
+                        print(sql)
+                        mycursor.execute(sql)
+                        mydb.commit()
+                        print(mycursor.rowcount, "record(s) affected")
                         
 
                         #call indiacators
