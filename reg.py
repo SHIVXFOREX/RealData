@@ -38,15 +38,15 @@ while True:
                     
                     duration =  1 # minute 1 or 5
                     default_Amt = 1
-                    amount = 2
+                    amount = 20
                     action = "put"  # put
                     polling_time = 3
                     counter = 1
                     expirations_mode = 1
                     winCounter = 0
                     lossCounter = 0
-                    Reg_Arr = [2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [5,12,28,64,147,367]
+                    Reg_Arr = [20,10,20,30,40,50,60,70,80,90,100,11,12,13,14,15,16,17,18,19,20,21]
+                    Martingle_Arr = [10,10,50,120,120,280,640,1470]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
@@ -82,10 +82,7 @@ while True:
                             print("loss")
                             winCounter = 0
                             lossCounter = lossCounter + 1
-                            if action == "put" :
-                                 action = "call"
-                            else : 
-                                 action = "put"
+
                             
 
                         # AM
@@ -100,7 +97,15 @@ while True:
 
 
                         
-                        print("Amount Counter 1 :" + str(amount))    
+                        print("Amount Counter 1 :" + str(amount))  
+
+                        current_Bal = float(Iq.get_balance())  
+                        
+                        currentEarning = current_Bal - Initial_Balance
+
+                        if currentEarning > 100 :
+                             print("exiting")
+                             exit()
 
                         #Place Trade
 
@@ -113,13 +118,13 @@ while True:
 
                         #SQL UPDAT
                                 
-                        current_Bal = float(Iq.get_balance())
+                        
 
                         #call indiacators
 
                          
                         #Write Logs...
-                        currentEarning = current_Bal - Initial_Balance
+                        
 
 
                         print("-------------------------------------")
@@ -146,6 +151,4 @@ while True:
                         file1.write("\n")
                         file1.close()
 
-                        if currentEarning > 10 :
-                             print("exiting")
-                             exit()
+
