@@ -58,7 +58,10 @@ while True:
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
-
+                    compounding_Flag = False
+                    martingle_Flag = True
+                    compundingAmt = 0
+                    
                     # check result
                     def check_result(id):
                         while True:
@@ -94,14 +97,15 @@ while True:
                             
 
                         # AM
-                        if check_result(id) > 0:
-                            Mar_row = 0
-                            Reg_row = Reg_row + 1
-                            amount = Reg_Arr[Reg_row]
-                        else:
-                            Reg_row = 0
-                            Mar_row = Mar_row + 1
-                            amount = Martingle_Arr[Mar_row]
+                        if martingle_Flag :
+                            if check_result(id) > 0:
+                                Mar_row = 0
+                                Reg_row = Reg_row + 1
+                                amount = Reg_Arr[Reg_row]
+                            else:
+                                Reg_row = 0
+                                Mar_row = Mar_row + 1
+                                amount = Martingle_Arr[Mar_row]
 
 
                         
@@ -112,11 +116,26 @@ while True:
                         currentEarning = current_Bal - Initial_Balance
 
                         if currentEarning > 40 :
-                             print("exiting")
+                             print("exiting")       
                              exit()
                         if currentEarning < -30 :
-                             print("SLEEPING")
-                             time.sleep(3600)
+                             compounding_Flag = True
+                             compundingAmt = - + currentEarning
+
+                        if compounding_Flag :
+                                 if check_result(id) > 0 :
+                                    if winCounter > 1 :
+                                        amount = default_Amt
+                                        compounding_Flag = False
+                                        martingle_Flag = True
+                                    if winCounter == 1 :
+                                        amount = compundingAmt 
+                                    else :
+                                        amount = default_Amt
+                                        print(compundingAmt)
+                                 else :
+                                        compundingAmt = compundingAmt + amount
+                                        amount = default_Amt
 
                         #Place Trade
 
