@@ -53,8 +53,8 @@ while True:
                     expirations_mode = 1
                     winCounter = 0
                     lossCounter = 0
-                    Reg_Arr = [2,10,20,30,40,50,60,70,80,90,100,11,12,13,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [1,5,12,30,40,30,12,5,1,1,1,1,1]
+                    Reg_Arr = [2,1,10,15,10,9,8,7,6,5,4,3,2,1,14,15,16,17,18,19,20,21]
+                    Martingle_Arr = [1,5,12,30,12,5,5,5,5,5,2,3,5,8,13,21]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
@@ -111,9 +111,12 @@ while True:
                         
                         currentEarning = current_Bal - Initial_Balance
 
-                        if currentEarning > 1000 :
+                        if currentEarning > 40 :
                              print("exiting")
                              exit()
+                        if currentEarning < -30 :
+                             print("SLEEPING")
+                             time.sleep(3600)
 
                         #Place Trade
 
