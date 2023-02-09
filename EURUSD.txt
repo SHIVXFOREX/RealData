@@ -910,3 +910,4 @@ T&D :- 09/02/2023 11:11:02 | EURUSD |  | WIN | put | 1 | Counter :- 3 | 10047.79
 T&D :- 09/02/2023 11:12:02 | EURUSD |  | LOSS | put | 5 | Counter :- 4 | 10042.79
 T&D :- 09/02/2023 11:13:02 | EURUSD |  | LOSS | put | 12 | Counter :- 5 | 10030.79
 T&D :- 09/02/2023 11:14:01 | EURUSD |  | LOSS | put | 30 | Counter :- 6 | 10000.79
+T&D :- 09/02/2023 12:15:02 | EURUSD |  | LOSS | put | 12 | Counter :- 7 | 9988.79
