@@ -83,7 +83,7 @@ while True:
 
                     # Master Loop
                     while True:
-                        file1 = open(ACTIVES + day + ".txt", "a")
+                        file1 = open(ACTIVES + ".txt", "a")
                         if check_result(id) > 0:
                             result = "WIN"
                             print("win")
