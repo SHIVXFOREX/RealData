@@ -54,7 +54,7 @@ while True:
                     winCounter = 0
                     lossCounter = 0
                     Reg_Arr = [2,1,10,15,10,9,8,7,6,5,4,3,2,1,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [1,5,12,30,12,5,5,5,5,5,2,3,5,8,13,21]
+                    Martingle_Arr = [1,5,5,12,30,64,124,250,5,5,5,2,3,5,8,13,21]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
@@ -115,7 +115,7 @@ while True:
                         
                         currentEarning = current_Bal - Initial_Balance
 
-                        if currentEarning > 40 :
+                        if currentEarning > 250 :
                              print("exiting")       
                              exit()
                         if currentEarning < -30 :
@@ -129,7 +129,7 @@ while True:
                                         compounding_Flag = False
                                         martingle_Flag = True
                                     if winCounter == 1 :
-                                        amount = compundingAmt 
+                                        amount = compundingAmt * 1.2
                                     else :
                                         amount = default_Amt
                                         print(compundingAmt)
@@ -180,6 +180,7 @@ while True:
                         file1.write(ACTIVES + " | ")
                         file1.write(" | " + result + " | ")
                         file1.write(action + " | ")
+                        file1.write(compundingAmt + " | ")
                         file1.write(str(amount))
                         file1.write(" | Counter :- " + str(counter) + " | ")
                         file1.write(str(Iq.get_balance()))
