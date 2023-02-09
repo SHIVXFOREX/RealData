@@ -28,6 +28,7 @@ while True:
             now = datetime.now()
             dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
             seconds = now.strftime("%H:%M")
+            day = now.strftime("%d/%m/%Y")
             
             print("HR and MIN =", seconds)
             if seconds == enter_time:
@@ -82,7 +83,7 @@ while True:
 
                     # Master Loop
                     while True:
-                        file1 = open(ACTIVES + ".txt", "a")
+                        file1 = open(ACTIVES + day + ".txt", "a")
                         if check_result(id) > 0:
                             result = "WIN"
                             print("win")
