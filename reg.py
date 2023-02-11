@@ -116,7 +116,7 @@ while True:
                         
                         currentEarning = current_Bal - Initial_Balance
 
-                        if currentEarning > 250 :
+                        if currentEarning > 450 :
                              print("exiting")       
                              exit()
                         if currentEarning < -500 :
