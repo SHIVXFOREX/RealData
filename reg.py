@@ -55,7 +55,7 @@ while True:
                     winCounter = 0
                     lossCounter = 0
                     Reg_Arr = [2,1,10,15,10,9,8,7,6,5,4,3,2,1,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [1,5,12,30,64,124,250,500,5,5,2,3,5,8,13,21]
+                    Martingle_Arr = [1,5,2,16,30,1,1,1,1,1,1,1,1]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
