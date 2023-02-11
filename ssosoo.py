@@ -62,7 +62,7 @@ while True:
                     compounding_Flag = False
                     martingle_Flag = True
                     compundingAmt = 0
-                    sso_Pattern = ["S","S","O","S","O","O"]
+                    sso_Pattern = [1,1,0,1,0,0]
                     
                     # check result
                     def check_result(id):
@@ -90,7 +90,7 @@ while True:
                             print("win")
                             lossCounter = 0
                             winCounter = winCounter + 1
-                            if sso_Pattern(counter) == "s" :
+                            if sso_Pattern[counter] == 1 :
                                  if action == "put" :
                                       action = "put"
                                  else :
@@ -106,9 +106,9 @@ while True:
                             winCounter = 0
                             lossCounter = lossCounter + 1
                             counter = counter + 1
-                            if counter > 7 :
+                            if counter > 5 :
                                  counter = 1
-                            if sso_Pattern(counter) == "s" :
+                            if sso_Pattern[counter] == 1 :
                                  if action == "put" :
                                       action = "put"
                                  else :
