@@ -37,7 +37,7 @@ while True:
                 Iq = IQ_Option("shivxforex@gmail.com", "IDEAPAD300")
                 check, reason = Iq.connect()
 
-                if check:
+                if check:  
                     print("Start your robot")
                     # if see this you can close network for test
                     balance_type = "PRACTICE"
@@ -54,8 +54,8 @@ while True:
                     expirations_mode = 1
                     winCounter = 0
                     lossCounter = 0
-                    Reg_Arr = [2,1,10,15,10,9,8,7,6,5,4,3,2,1,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [1,5,12,30,64,124,250,500,5,5,2,3,5,8,13,21]
+                    Reg_Arr = [2,1,10,5,10,9,8,7,6,5,4,3,2,1,14,15,16,17,18,19,20,21]
+                    Martingle_Arr = [1,5,2,16,34,1,1,1,1,1,1,1,1,1,1,1,1]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
@@ -142,27 +142,12 @@ while True:
                         
                         currentEarning = current_Bal - Initial_Balance
 
-                        if currentEarning > 250 :
+                        if currentEarning > 50 :
                              print("exiting")       
                              exit()
-                        if currentEarning < -500 :
-                             compounding_Flag = True
-                             compundingAmt = - + currentEarning
-
-                        if compounding_Flag :
-                                 if check_result(id) > 0 :
-                                    if winCounter > 1 :
-                                        amount = default_Amt
-                                        compounding_Flag = False
-                                        martingle_Flag = True
-                                    if winCounter == 1 :
-                                        amount = compundingAmt * 1.2
-                                    else :
-                                        amount = default_Amt
-                                        print(compundingAmt)
-                                 else :
-                                        compundingAmt = compundingAmt + amount
-                                        amount = default_Amt
+                        if currentEarning < -50 :
+                             print("exiting")       
+                             exit()
 
                         #Place Trade
 
