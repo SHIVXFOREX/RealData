@@ -55,7 +55,7 @@ while True:
                     winCounter = 0
                     lossCounter = 0
                     Reg_Arr = [2,1,10,5,10,9,8,7,6,5,4,3,2,1,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [1,5,2,16,34,1,1,1,1,1,1,1,1,1,1,1,1]
+                    Martingle_Arr = [100,500,200,1600,3400,6700,1,1,1,1,1,1,1,1,1,1,1]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
@@ -142,10 +142,10 @@ while True:
                         
                         currentEarning = current_Bal - Initial_Balance
 
-                        if currentEarning > 50 :
+                        if currentEarning > 5000 :
                              print("exiting")       
                              exit()
-                        if currentEarning < -50 :
+                        if currentEarning < -5000 :
                              print("exiting")       
                              exit()
 

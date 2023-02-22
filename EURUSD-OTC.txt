@@ -585,3 +585,13 @@ T&D :- 11/02/2023 21:33:03 | EURUSD-OTC |  | LOSS | call | 5 | Counter :- 2 | 12
 T&D :- 11/02/2023 21:34:04 | EURUSD-OTC |  | LOSS | call | 2 | Counter :- 3 | 1276.12
 T&D :- 11/02/2023 21:35:04 | EURUSD-OTC |  | LOSS | put | 16 | Counter :- 4 | 1260.12
 T&D :- 11/02/2023 21:36:04 | EURUSD-OTC |  | WIN | call | 1 | Counter :- 4 | 1289.39
+T&D :- 12/02/2023 14:38:01 | EURUSD-OTC |  | LOSS | call | 50 | Counter :- 2 | 2050.72
+T&D :- 12/02/2023 14:41:01 | EURUSD-OTC |  | WIN | put | 1 | Counter :- 1 | 2051.51
+T&D :- 12/02/2023 14:42:01 | EURUSD-OTC |  | WIN | put | 10 | Counter :- 1 | 2043.4
+T&D :- 12/02/2023 14:43:01 | EURUSD-OTC |  | WIN | put | 5 | Counter :- 1 | 2057.32
+T&D :- 12/02/2023 14:44:01 | EURUSD-OTC |  | WIN | put | 10 | Counter :- 1 | 2056.78
+T&D :- 12/02/2023 14:45:02 | EURUSD-OTC |  | WIN | put | 9 | Counter :- 1 | 2066.7
+T&D :- 12/02/2023 14:46:02 | EURUSD-OTC |  | LOSS | call | 50 | Counter :- 2 | 2016.7
+T&D :- 12/02/2023 17:26:04 | EURUSD-OTC |  | LOSS | call | 500 | Counter :- 2 | 9498
+T&D :- 12/02/2023 17:29:03 | EURUSD-OTC |  | LOSS | call | 500 | Counter :- 2 | 9498
+T&D :- 12/02/2023 17:30:04 | EURUSD-OTC |  | WIN | put | 1 | Counter :- 2 | 10443.1
