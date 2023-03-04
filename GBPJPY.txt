@@ -1,0 +1,15 @@
+T&D :- 22/02/2023 14:20:01 | GBPJPY |  | WIN | put | 1 | Counter :- 2 | 10471.8
+T&D :- 22/02/2023 14:21:01 | GBPJPY |  | WIN | put | 1 | Counter :- 3 | 10472.69
+T&D :- 22/02/2023 14:22:01 | GBPJPY |  | WIN | put | 1 | Counter :- 4 | 10473.58
+T&D :- 22/02/2023 14:23:01 | GBPJPY |  | LOSS | put | 2 | Counter :- 5 | 10471.58
+T&D :- 22/02/2023 14:24:01 | GBPJPY |  | WIN | put | 1 | Counter :- 6 | 10474.37
+T&D :- 22/02/2023 14:25:02 | GBPJPY |  | LOSS | put | 2 | Counter :- 7 | 10472.37
+T&D :- 22/02/2023 14:26:01 | GBPJPY |  | LOSS | put | 5 | Counter :- 8 | 10467.37
+T&D :- 22/02/2023 14:27:01 | GBPJPY |  | LOSS | put | 15 | Counter :- 9 | 10452.37
+T&D :- 23/02/2023 17:20:05 | GBPJPY |  | WIN | put | 5 | Counter :- 2 | 10588.89
+T&D :- 23/02/2023 17:21:05 | GBPJPY |  | LOSS | put | 15 | Counter :- 3 | 10573.89
+T&D :- 23/02/2023 17:22:04 | GBPJPY |  | WIN | put | 5 | Counter :- 4 | 10597.27
+T&D :- 23/02/2023 17:23:04 | GBPJPY |  | LOSS | put | 15 | Counter :- 5 | 10582.27
+T&D :- 23/02/2023 17:24:04 | GBPJPY |  | LOSS | put | 33 | Counter :- 6 | 10549.27
+T&D :- 23/02/2023 17:25:06 | GBPJPY |  | LOSS | put | 72 | Counter :- 7 | 10477.27
+T&D :- 23/02/2023 17:26:06 | GBPJPY |  | LOSS | put | 160 | Counter :- 8 | 10317.27

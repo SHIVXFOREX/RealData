@@ -20,8 +20,10 @@ mycursor = mydb.cursor()
 
 now = datetime.now()
 seconds = now.strftime("%H:%M")
-enter_time = easygui.enterbox("What, time is to start Robot 00:00 ?" , seconds)
-ACTIVES = easygui.enterbox("Actives ? ?")
+
+
+#ACTIVES = easygui.enterbox("Actives ? ?")
+ACTIVES = "EURGBP"
 
 while True:
             time.sleep(1)
@@ -31,8 +33,8 @@ while True:
             day = now.strftime("%d/%m/%Y")
             
             print("HR and MIN =", seconds)
-            if seconds == enter_time:
-                print("time is ", enter_time)
+            if seconds == seconds:
+                print("time is ", seconds)
                 error_password = """{"code":"invalid_credentials","message":"You entered the wrong credentials. Please check that the login/password is correct."}"""
                 Iq = IQ_Option("shivxforex@gmail.com", "IDEAPAD300")
                 check, reason = Iq.connect()
@@ -40,7 +42,7 @@ while True:
                 if check:
                     print("Start your robot")
                     # if see this you can close network for test
-                    balance_type = "PRACTICE"
+                    balance_type = "REAL"
                     print(Iq.change_balance(balance_type))
                     Initial_Balance = float(Iq.get_balance())
 
@@ -54,8 +56,7 @@ while True:
                     expirations_mode = 1
                     winCounter = 0
                     lossCounter = 0
-                    Reg_Arr = [2,1,10,15,10,9,8,7,6,5,4,3,2,1,14,15,16,17,18,19,20,21]
-                    Martingle_Arr = [1,5,2,16,30,1,1,1,1,1,1,1,1]
+                    Martingle_Arr = [8,15,33,72,160]
                     Reg_row = 0
                     Mar_row = 0
                     currentEarning = 0
@@ -77,6 +78,8 @@ while True:
                             return win
 
                     # first time place trade
+                    
+                    amount = Martingle_Arr[Mar_row]
 
                     print("Placing First Trade!")
                     _, id = (Iq.buy_digital_spot(ACTIVES, amount, action, duration))
@@ -101,12 +104,9 @@ while True:
                         if martingle_Flag :
                             if check_result(id) > 0:
                                 Mar_row = 0
-                                Reg_row = Reg_row + 1
-                                amount = Reg_Arr[Reg_row]
                             else:
-                                Reg_row = 0
                                 Mar_row = Mar_row + 1
-                                amount = Martingle_Arr[Mar_row]
+                            amount = Martingle_Arr[Mar_row]
 
 
                         
@@ -116,37 +116,28 @@ while True:
                         
                         currentEarning = current_Bal - Initial_Balance
 
-                        if currentEarning > 450 :
+
+                        # Counter Controller
+
+                        counter = counter + 1
+
+                        
+
+                        
+
+                        #call indiacators
+                        if currentEarning > 7 :
                              print("exiting")       
                              exit()
-                        if currentEarning < -500 :
-                             compounding_Flag = True
-                             compundingAmt = - + currentEarning
-
-                        if compounding_Flag :
-                                 if check_result(id) > 0 :
-                                    if winCounter > 1 :
-                                        amount = default_Amt
-                                        compounding_Flag = False
-                                        martingle_Flag = True
-                                    if winCounter == 1 :
-                                        amount = compundingAmt * 1.2
-                                    else :
-                                        amount = default_Amt
-                                        print(compundingAmt)
-                                 else :
-                                        compundingAmt = compundingAmt + amount
-                                        amount = default_Amt
 
                         #Place Trade
 
                         _, id = (Iq.buy_digital_spot(
                             ACTIVES, amount, action, duration))
 
-                        # Counter Controller
 
-                        counter = counter + 1
-
+                         
+                        
                         #SQL UPDAT
                         mydb.connect()
                         sql = (f"UPDATE active SET winAmt = '{currentEarning}' WHERE currency = '{ACTIVES}'" )
@@ -156,13 +147,7 @@ while True:
                         print(mycursor.rowcount, "record(s) affected")
                         
 
-                        #call indiacators
-
-                         
                         #Write Logs...
-                        
-
-
                         print("-------------------------------------")
                         print("Active :- " + ACTIVES)
                         print("Counter :- " + str(counter))

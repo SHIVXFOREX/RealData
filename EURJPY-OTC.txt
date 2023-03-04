@@ -79,3 +79,5 @@ T&D :- 11/02/2023 16:08:02 | EURJPY-OTC |  | WIN | call | 377 | Counter :- 1 | 2
 T&D :- 11/02/2023 16:09:03 | EURJPY-OTC |  | LOSS | put | 610 | Counter :- 2 | 1588.54
 T&D :- 11/02/2023 16:10:03 | EURJPY-OTC |  | LOSS | put | 987 | Counter :- 3 | 601.54
 T&D :- 11/02/2023 16:11:03 | EURJPY-OTC |  | WIN | put | 2584 | Counter :- 3 | 2469.04
+T&D :- 25/02/2023 10:27:01 | EURJPY-OTC |  | LOSS | put | 33 | Counter :- 2 | 1377.96
+T&D :- 25/02/2023 10:28:01 | EURJPY-OTC |  | LOSS | put | 72 | Counter :- 3 | 1305.96

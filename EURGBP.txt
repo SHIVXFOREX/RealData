@@ -1,0 +1,16 @@
+T&D :- 01/03/2023 15:45:04 | EURGBP |  | LOSS | put | 15 | Counter :- 2 | 1564.9
+T&D :- 01/03/2023 15:46:03 | EURGBP |  | WIN | put | 8 | Counter :- 3 | 1585.27
+T&D :- 01/03/2023 15:47:04 | EURGBP |  | LOSS | put | 15 | Counter :- 4 | 1570.27
+T&D :- 01/03/2023 15:48:04 | EURGBP |  | LOSS | put | 33 | Counter :- 5 | 1537.27
+T&D :- 01/03/2023 15:49:04 | EURGBP |  | LOSS | put | 72 | Counter :- 6 | 1465.27
+T&D :- 01/03/2023 15:50:04 | EURGBP |  | LOSS | put | 160 | Counter :- 7 | 1305.27
+T&D :- 01/03/2023 15:51:05 | EURGBP |  | LOSS | put | 320 | Counter :- 8 | 985.27
+T&D :- 01/03/2023 15:52:03 | EURGBP |  | WIN | put | 8 | Counter :- 9 | 1582.72
+T&D :- 01/03/2023 15:53:03 | EURGBP |  | LOSS | put | 15 | Counter :- 10 | 1567.72
+T&D :- 01/03/2023 15:54:04 | EURGBP |  | LOSS | put | 33 | Counter :- 11 | 1534.72
+T&D :- 01/03/2023 15:55:04 | EURGBP |  | LOSS | put | 72 | Counter :- 12 | 1462.72
+T&D :- 02/03/2023 18:02:04 | EURGBP |  | LOSS | put | 8 | Counter :- 2 | 680.75
+T&D :- 02/03/2023 18:03:04 | EURGBP |  | WIN | put | 4 | Counter :- 3 | 691.88
+T&D :- 02/03/2023 18:04:04 | EURGBP |  | LOSS | put | 8 | Counter :- 4 | 683.88
+T&D :- 02/03/2023 18:05:05 | EURGBP |  | WIN | put | 4 | Counter :- 5 | 695.01
+T&D :- 03/03/2023 17:42:23 | EURGBP |  | LOSS | put | 15 | Counter :- 2 | 693.41

@@ -1,0 +1,4 @@
+T&D :- 02/03/2023 12:52:01 | GBPUSD |  | WIN | put | 4 | Counter :- 2 | 1663.1
+T&D :- 02/03/2023 12:53:01 | GBPUSD |  | LOSS | put | 8 | Counter :- 3 | 1655.1
+T&D :- 02/03/2023 12:54:01 | GBPUSD |  | WIN | put | 4 | Counter :- 4 | 1666.23
+T&D :- 02/03/2023 12:55:01 | GBPUSD |  | LOSS | put | 8 | Counter :- 5 | 1658.23

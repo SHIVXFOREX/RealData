@@ -1,0 +1,10 @@
+T&D :- 25/02/2023 10:44:01 | EURGBP-OTC |  | WIN | put | 5 | Counter :- 2 | 1455.02
+T&D :- 25/02/2023 10:45:01 | EURGBP-OTC |  | WIN | put | 5 | Counter :- 3 | 1459.48
+T&D :- 25/02/2023 11:32:01 | EURGBP-OTC |  | WIN | put | 5 | Counter :- 2 | 1480.11
+T&D :- 25/02/2023 11:33:01 | EURGBP-OTC |  | LOSS | put | 10 | Counter :- 3 | 1470.11
+T&D :- 25/02/2023 11:34:02 | EURGBP-OTC |  | LOSS | put | 15 | Counter :- 4 | 1455.11
+T&D :- 25/02/2023 11:35:02 | EURGBP-OTC |  | WIN | put | 5 | Counter :- 5 | 1478.49
+T&D :- 25/02/2023 11:36:02 | EURGBP-OTC |  | WIN | put | 5 | Counter :- 6 | 1482.95
+T&D :- 25/02/2023 11:37:01 | EURGBP-OTC |  | LOSS | put | 10 | Counter :- 7 | 1472.95
+T&D :- 25/02/2023 11:38:02 | EURGBP-OTC |  | WIN | put | 5 | Counter :- 8 | 1486.86
+T&D :- 25/02/2023 11:39:00 | EURGBP-OTC |  | LOSS | put | 10 | Counter :- 9 | 1476.86
